@@ -1,0 +1,113 @@
+#Container {
+    background-color: #1e2228;
+    border-radius: 15px;
+    border: 0px solid #3a3f4b;
+    font-family: "Microsoft YaHei";
+}
+#TitleBar {
+    background-color: #282c34;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#TitleLabel {
+    color: #EAEAEA;
+    font-size: 13px;
+}
+#TitlePanel {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+            stop:0 #282c34, stop:1 #1e2228);
+
+}
+#CloseButton, #MinimizeButton, #SettingsButton {
+    background-color: #282c34;
+    color: #AAAAAA;
+    font-size: 16px;
+    border: none;
+    padding: 8px 12px;
+}
+#SettingsButton {
+    border-top-left-radius: 15px;
+}
+#CloseButton  {
+    border-top-right-radius: 15px;
+}
+#MinimizeButton:hover {
+    background-color: #3a3f4b;
+    color: white;
+}
+#CloseButton:hover {
+    background-color: #e81123;
+    color: white;
+    border-top-right-radius: 15px;
+}
+#SettingsButton:hover {
+    background-color: #3a3f4b;
+    color: white;
+    border-top-left-radius: 15px;
+}
+QLabel {
+    color: #CCCCCC;
+    font-size: 14px;
+}
+QPushButton {
+    background-color: #007BFF;
+    color: white;
+    font-size: 13px;
+    padding: 8px 16px;
+}
+QPushButton:hover {
+    background-color: #0056b3;
+}
+QPushButton:pressed {
+    background-color: #00408d;
+    transform: scale(0.96);
+}
+#ScanButton {
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 2px;
+    padding: 8px 22px;
+    background-color: #007BFF;
+}
+#ScanButton:hover {
+    background-color: #0056b3;
+}
+#ScanButton:pressed {
+    background-color: #00408d;
+    transform: scale(0.96);
+}
+#ServiceCard {
+    background-color: #3a3f4b;
+    border-radius: 1px;
+    padding: 12px 18px;
+    border: 1px solid #4c515d;
+}
+#ServiceCard:hover {
+    border: 1px solid #007BFF;
+}
+#ServiceName {
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#ServiceUrl {
+    color: #A0A0A0;
+    font-size: 12px;
+}
+#JoinButton {
+    background-color: #007BFF;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 11px 12px;
+}
+#JoinButton:hover {
+    background-color: #0056b3;
+}
+#JoinButton:pressed {
+    background-color: #00408d;
+    transform: scale(0.96);
+}
+
